@@ -30,7 +30,7 @@ module.exports = {
   },
 
   magento: {
-    url: process.env.MAGENTO_URL || 'https://mgt.travelio.com/rest/',
+    url: process.env.MAGENTO_URL || 'https://mgt.travelio.com/rest',
     consumerKey: process.env.MAGENTO_CONSUMER_KEY || 'rmlfi5n0a1mlvcfkch1r3ue28ll5ognl',
     consumerSecret: process.env.MAGENTO_CONSUMER_SECRET || 'z648uxj8lvdpf8t7k5l0gqyz9omtfwkr',
     accessToken: process.env.MAGENTO_ACCESS_TOKEN || 'dqmcl8zixv8jrktlw11kk061fcq69ecc',
@@ -61,7 +61,7 @@ module.exports = {
   },
 
   elasticsearch: {
-    apiVersion: process.env.ELASTICSEARCH_API_VERSION || '7.1'
+    apiVersion: process.env.ELASTICSEARCH_API_VERSION || '5.6'
   },
 
   redis: {
